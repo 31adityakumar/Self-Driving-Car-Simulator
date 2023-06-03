@@ -10,7 +10,7 @@
 
 - 🌱 I’m currently learning **Express js, MongoDB, Prisma**
 
-- I'm working as **Technical Head, E-Cell NIT Silchar** (https://github.com/E-cell-NITS)
+- I'm working as **Technical Head, E-Cell NIT Silchar** (https://ecellnits.org/)
 
 - 👨‍💻 All of my projects are available at [https://github.com/31adityakumar?tab=repositories](https://github.com/31adityakumar?tab=repositories)
 
