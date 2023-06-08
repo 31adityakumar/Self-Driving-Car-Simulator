@@ -16,7 +16,7 @@
 
 - 📫 How to reach me **kumar.31aditya@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing](https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing)
+<!-- - 📄 Know about my experiences [https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing](https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing) -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
