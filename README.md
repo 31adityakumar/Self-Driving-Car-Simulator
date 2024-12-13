@@ -1,42 +1,126 @@
-<h1 align="center">Hi 👋, I'm Aditya Kumar</h1>
-<h3 align="center">A passionate Full Stack Developer from India</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=31adityakumar&label=Profile%20views&color=0e75b6&style=flat" alt="31adityakumar" /> </p>
+## FINAL YEAR PROJECT - Part 1
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=31adityakumar" alt="31adityakumar" /></a> </p>
+# Self-Driving Car Simulation Using CNN
 
-<p align="left"> <a href="https://twitter.com/adityakr_31" target="blank"><img src="https://img.shields.io/twitter/follow/adityakr_31?logo=twitter&style=for-the-badge" alt="adityakr_31" /></a> </p>
+This repository contains the implementation of a self-driving car simulation using a Convolutional Neural Network (CNN). The project leverages NVIDIA's end-to-end deep learning architecture for autonomous navigation within the Udacity Self-Driving Car Simulator.
 
-- 🔭 I’m currently working on **eeLibrary**
+## Project Overview
+The objective of this project is to simulate a self-driving car that can predict steering angles from input images, enabling autonomous navigation in a simulated environment. The project demonstrates the potential of deep learning techniques, particularly CNNs, for autonomous vehicle control.
 
-- 🌱 I’m currently working on **Prisma, PostgreSQL, Three.js, Google Cloud Platform**
+### Key Features
+- End-to-end deep learning model for predicting steering angles.
+- Image preprocessing and data augmentation for robust training.
+- Integration with the Udacity Self-Driving Car Simulator.
+- GPU-accelerated training using TensorFlow and Keras.
 
-- I worked as **Technical Head, E-Cell NIT Silchar** (https://ecellnits.org/)
+## Prerequisites
+### Software Requirements
+- Python 3.7+
+- TensorFlow 2.x
+- Keras
+- OpenCV
+- Udacity Self-Driving Car Simulator
 
-- 👨‍💻 All of my projects are available at [https://github.com/31adityakumar?tab=repositories](https://github.com/31adityakumar?tab=repositories)
+### Libraries
+Install the required libraries using:
+```bash
+pip install -r requirements.txt
+```
 
-- 📫 How to reach me **kumar.31aditya@gmail.com**
+## Dataset
+Data was collected using the Udacity Self-Driving Car Simulator in manual driving mode. The dataset includes:
+- Images from three camera angles (left, center, right).
+- Corresponding steering angle values.
 
-<!-- - 📄 Know about my experiences [https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing](https://drive.google.com/file/d/18e_bkryWDvVUxB1JdAG1mSQXD1JTX5FD/view?usp=sharing) -->
+### Data Preprocessing
+- **Cropping**: Removes irrelevant sections (e.g., sky, car hood).
+- **Normalization**: Scales pixel values to the range [0, 1].
+- **Augmentation**: Introduces variations like flipping, brightness adjustment, and zoom.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/adityakr_31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="adityakr_31" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/adityakr31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="adityakr31" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/21929571/aditya-kumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/21929571/aditya-kumar" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/profile.php?id=100071791456601" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100071791456601" height="30" width="40" /></a>
-<a href="https://instagram.com/adityakr_31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="adityakr_31" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/adityakr31" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="adityakr31" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@kumar_31aditya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@kumar_31aditya" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/kumar.31aditya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="kumar.31aditya" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/adityakr_31" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="adityakr_31" height="30" width="40" /></a>
-<a href="https://auth.geeksforgeeks.org/user/kumar31aditya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="kumar31aditya" height="30" width="40" /></a>
-</p>
+## Model Architecture
+The CNN model is inspired by NVIDIA's architecture and consists of:
+1. Normalization Layer.
+2. Five Convolutional Layers for feature extraction.
+3. Three Fully Connected Layers for steering angle prediction.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+### Activation Function
+Exponential Linear Unit (ELU) was used to address vanishing gradient issues and ensure faster convergence.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=31adityakumar&show_icons=true&locale=en&layout=compact" alt="31adityakumar" /></p>
+### Optimization
+- **Optimizer**: Adam Optimizer.
+- **Loss Function**: Mean Squared Error (MSE) for regression.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=31adityakumar&show_icons=true&locale=en" alt="31adityakumar" /></p>
+## Training
+The model was trained for 10 epochs using the prepared dataset. Data augmentation ensured robustness, and the model's performance was evaluated using validation data.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=31adityakumar&" alt="31adityakumar" /></p>
+## Testing
+The trained model was tested in autonomous mode within the Udacity simulator. It successfully navigated various scenarios, including:
+- Straight paths and curves.
+- Variations in lighting conditions.
+- Minor road obstructions.
+
+## Usage
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/31adityakumar/Self-Driving-Car-Simulator
+   cd Self-Driving-Car-Simulator
+   ```
+
+2. **Run the Simulator**
+   - Install the Udacity Self-Driving Car Simulator from [Udacity's GitHub](https://github.com/udacity/self-driving-car-sim).
+   - Launch the simulator and choose the appropriate track.
+
+ 
+3. **Create an environment & activate**
+
+
+```bash
+conda init powereshell
+conda create -n sdcar python=3.7 -y
+conda activate sdcar
+```
+
+
+4. **Install the requirements**
+
+```bash
+pip install -r requirements.txt
+```
+
+5. **Train the Model**
+   ```bash
+   python train.py
+   ```
+
+6. **Test the Model**
+   ```bash
+   python drive.py
+   ```
+
+## Results
+The model demonstrated consistent performance in the simulator, maintaining lane discipline and effectively handling diverse scenarios.
+
+### Sample Output
+- **Training Loss**: See `training_loss.png` for the loss graph.
+- **Autonomous Navigation**: The model's behavior can be visualized in `test_run.mp4`.
+
+## Future Work
+- Incorporate additional sensors like LiDAR and radar.
+- Train on real-world datasets to improve generalization.
+- Optimize the model for edge devices.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+
+## Acknowledgments
+- NVIDIA for their end-to-end learning architecture.
+- Udacity for providing the Self-Driving Car Simulator.
+- TensorFlow and OpenCV communities for their invaluable tools.
+
+---
+
+
+
+```
+
