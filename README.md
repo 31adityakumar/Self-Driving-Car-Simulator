@@ -65,13 +65,17 @@ The trained model was tested in autonomous mode within the Udacity simulator. It
    git clone https://github.com/31adityakumar/Self-Driving-Car-Simulator
    cd Self-Driving-Car-Simulator
    ```
+   **Clone Data**
+   ```bash
+   https://github.com/rslim087a/track
+   ```
 
-2. **Run the Simulator**
+3. **Run the Simulator**
    - Install the Udacity Self-Driving Car Simulator from [Udacity's GitHub](https://github.com/udacity/self-driving-car-sim).
    - Launch the simulator and choose the appropriate track.
 
  
-3. **Create an environment & activate**
+4. **Create an environment & activate**
 
 
 ```bash
@@ -85,6 +89,8 @@ conda activate sdcar
 
 ```bash
 pip install -r requirements.txt
+pip install python-engineio==3.13.2
+pip install python-socketio==4.6.1
 ```
 
 5. **Train the Model**
@@ -117,10 +123,3 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 - NVIDIA for their end-to-end learning architecture.
 - Udacity for providing the Self-Driving Car Simulator.
 - TensorFlow and OpenCV communities for their invaluable tools.
-
----
-
-
-
-```
-
